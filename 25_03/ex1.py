@@ -1,0 +1,6 @@
+nomeCompleto = str(input("Informe seu nome: "))
+nomeMaiusculo = nomeCompleto.upper()
+nomeMinusculo = nomeCompleto.lower()
+qtndLetras = len(nomeCompleto.replace(" ",""))
+primeiroNome = nomeCompleto.split()
+print(f"Maiúsculo: {nomeMaiusculo}\n Minúsculo: {nomeMinusculo}\n Quantidade de Letras: {qtndLetras}\n Primeiro nome: {len(primeiroNome[0])}")
